@@ -1,0 +1,78 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+.task {
+  background: #fafafa;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.task:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.task h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
