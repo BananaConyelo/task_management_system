@@ -6,7 +6,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/tasks/')
+    fetch('https://sixbutjessie.pythonanywhere.com/')
       .then(response => response.json())
       .then(data => setTasks(data))
       .catch(error => console.error('Error fetching tasks:', error));
@@ -15,7 +15,7 @@ function App() {
   
   const [title, setTitle] = useState('');
   const addTask = () => {
-    fetch('http://localhost:8000/api/tasks/', {
+    fetch('https://sixbutjessie.pythonanywhere.com/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
